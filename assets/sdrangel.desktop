@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=SDRAngel
+Comment=SDR Rx/Tx software for Airspy, Airspy HF+, BladeRF, HackRF, LimeSDR, PlutoSDR, RTL-SDR, SDRplay RSP1 and FunCube
+Exec=/bin/bash -c "source /home/gnuradio/pybombs/setup_env.sh && /home/gnuradio/sdrangel/install/sdrangel/bin/sdrangel"
+Icon=sdrangel_icon.png

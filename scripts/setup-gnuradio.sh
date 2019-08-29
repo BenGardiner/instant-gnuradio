@@ -171,7 +171,7 @@ find ./pybombs -type d -name '.git' | xargs rm -rf
 find ./pybombs -type d -name 'build' | xargs rm -rf
 
 ### FAVORITE APPLICATIONS
-xvfb-run dconf write /org/gnome/shell/favorite-apps "['gnuradio-grc.desktop', 'gqrx.desktop', 'fosphor.desktop', 'inspectrum.desktop', 'urh.desktop', 'terminator.desktop', 'gnuradio-web.desktop', 'firefox.desktop', 'org.gnome.Nautilus.desktop']"
+xvfb-run dconf write /org/gnome/shell/favorite-apps "['gnuradio-grc.desktop', 'gqrx.desktop', 'fosphor.desktop', 'inspectrum.desktop', 'urh.desktop', 'sdrangel.desktop', 'terminator.desktop', 'gnuradio-web.desktop', 'firefox.desktop', 'org.gnome.Nautilus.desktop']"
 
 ### The German Code
 # xvfb-run dconf write /org/gnome/desktop/input-sources/sources "[('xkb', 'de')]"
