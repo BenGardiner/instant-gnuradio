@@ -40,20 +40,20 @@ sudo chsh -s /bin/zsh gnuradio
 fc-cache -fr
 
 ### SPACEMACS
-sudo apt-get -y install emacs25
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-cd .emacs.d
-git checkout master
-git reset --hard $(git describe --tags $(git rev-list --tags --max-count=1))
-cd ~
-emacs --batch \
-    --eval "(setq gc-cons-threshold 100000000)" \
-    --eval "(defconst spacemacs-version \"0.200.13\" \"Spacemacs version.\")" \
-    --eval "(defconst spacemacs-emacs-min-version   \"24.4\" \"Minimal version of Emacs.\")" \
-    --eval "(load-file \"/home/gnuradio/.emacs.d/core/core-load-paths.el\")" \
-    --eval "(require 'core-spacemacs)" \
-    --eval "(spacemacs/init)" \
-    --eval "(configuration-layer/sync)"
+# sudo apt-get -y install emacs25
+# git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+# cd .emacs.d
+# git checkout master
+# git reset --hard $(git describe --tags $(git rev-list --tags --max-count=1))
+# cd ~
+# emacs --batch \
+#     --eval "(setq gc-cons-threshold 100000000)" \
+#     --eval "(defconst spacemacs-version \"0.200.13\" \"Spacemacs version.\")" \
+#     --eval "(defconst spacemacs-emacs-min-version   \"24.4\" \"Minimal version of Emacs.\")" \
+#     --eval "(load-file \"/home/gnuradio/.emacs.d/core/core-load-paths.el\")" \
+#     --eval "(require 'core-spacemacs)" \
+#     --eval "(spacemacs/init)" \
+#     --eval "(configuration-layer/sync)"
 
 ### VIM
 sudo apt-get -y install vim vim-gnome
